@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+.offset:before{
+    display: block;
+    content: "";
+    height: 6rem;
+}
+
+
+
+.navbar{
+    font-size: 14px;
+    font-weight: 650;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    background-color: #ccc;
+    color: white;
+    transition: 0.5s;
+}
+
+.heading-content{
+    position:absolute;
+    top: 40%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.heading-content h5{
+    font-size: 3em;
+    font-weight: 300;
+    color: #fff;
+    font-family: monospace;
+}
+.heading-content h1{
+    font-size: 4em;
+    font-weight: bold;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.heading-content p{
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #ccc;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-align: center;
+}
+
+/*---------------about start-------------*/
+
+#about h3{
+   padding-top: 3%;
+}
+#about .btn{
+    border: 2px transparent;
+    width: 40%;
+    padding: 15px 22px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#about .btn a{
+    color:white;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#about .btn:hover{
+    border: 2px solid #ccc;
+    background-color: #cccc;
+    cursor: pointer;
+}
+
+#about .btn a:hover{
+    color:black;
+}
+.row h2{
+    margin-left: 15px;
+    text-align: left;
+}
+.row p{
+    text-align: left;
+    font-weight: 600;
+    margin: 10px 15px 15px 15px;
+}
+.row img{
+    display: block;
+    margin: 0 auto 0 auto;
+    height: 100%;
+    width: 50%;
+}
+
+/*----------------projects---------------*/
+
+#projects h3{
+    padding-top: 3%;
+}
+
+#pba{
+    height: 100%;
+}
+
+#pba img{
+    height: 165px;
+    padding-top: 30px;
+}
+#grc img{
+    padding-top: 30px;
+    height: 166px;
+}
+
+#mavs img{
+    padding-top: 30px;
+    height: 166px;
+}
+/*----------------newsletter---------------*/
+
+.sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #cccc;
+    height: 250px;
+}
+
+.sec1 h2{
+    letter-spacing: 3px;
+    line-height: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.sec1 p{
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+#bn{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 auto 0 auto;
+    border: 1px solid black;
+}
+#bn:hover{
+
+    color: black;
+    font-weight: 600;
+}
+.fn, .em, .ms{
+    float:left;
+}
+.b{
+    border-radius: 10px;
+    height: 50px;
+    width:150px;
+    margin: 0 auto 0 auto;
+}
+.b:hover{
+    background-color: white;
+    color:black;
+}
