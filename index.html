@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body data-spy="scroll" data-bs-target="#navbarResponsive">
+    <div id="home">
+        <!--------navigation Start---------->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" >
+            <div class="container-fluid">
+              <a class="navbar-brand" href="file:///C:/Users/Thompie/Desktop/my%20portfolio/index.html">TBL</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <div class="navbar-nav mx-auto">
+                  <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  <a class="nav-link" href="#about">About</a>
+                  <a class="nav-link" href="#projects">Projects</a>
+                  <a class="nav-link" href="#workexperience">Work Experience</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        <!--------navigation End------------>
+        <!--------background start---------->
+        <div class="background">
+            <img src="bg1.jpg" class="img-fluid" style="height:800px; width:4000px;">
+        </div>
+        <div class="heading-content text-center">
+            <h5>
+                Hello, I'm
+            </h5>
+            <h1>
+                Thompie Lumerio
+            </h1>
+            <p>
+                I am a front-end Developer!
+            </p>
+        </div>
+        <!--------background End------------>
+    </div>
+
+    <!------About start------->
+    <div class="offset container mt-3 mb-5" id="about">
+        <div class="post-heading text-center">
+            <h3 class="display-4 fw-bold">About Me</h3>
+            <hr class="w-50 mx-auto">
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-12">
+                <img src="thom.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+                <h2>Wanna know about me?</h2>
+                <hr style="width:60%">
+                <p>Hi, I am Thompie Lumerio, i'm currently in 3rd year bsit college student in
+                    Global Reciprocal Colleges. I love designing and coding as well, i'd like
+                    to be the best version of me and to improve my skills in Front-end developing.
+                    I am knowledgeable with HTML, CSS, and as of now i'm learning how to use frameworks 
+                    like Boostrap in order for me to create webpage designs fast.
+                </p>
+                <button class="btn w-50">
+                    <a href="#">Know more</a>
+                </button>
+        </div>
+    </div>
+
+    <!------About end------->
+
+    
+    <!------projects start------->
+    <div class="offset container mt-3 mb-5" id="projects">
+        <div class="post-heading text-center">
+            <h3 class="display-4 fw-bold">My Projects</h3>
+            <hr class="w-50 mx-auto">
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 pb-5">
+                <div class="card bg-secondary" id="pba">
+                    <img src="pba.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Philippine Baskebtball Association</h5>
+                      <p class="card-text">This System is made for our final project in IPTECH subject when i was in 3rd year 1st sem
+                          in college. It has a crud function and it has database also using MySql.</p>
+                    
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12 pb-5">
+                <div class="card bg-secondary" id="grc">
+                    <img src="grc.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Global Reciprocal Colleges</h5>
+                      <p class="card-text">This System is made for my enhancement in creating simple system with
+                          basic functions. It has a crud function and it has database also using MySql.</p>
+                      
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12 pb-5">
+                <div class="card bg-secondary" id="mavs">
+                    <img src="mavs.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Mavs Phenomenal Application</h5>
+                      <p class="card-text">Although this is not a webpage but it is a part of my growth in
+                          developing an application. Using Android studio i created this simple application with
+                          Cardview and navigation drawer.
+                      </p>
+                     
+                    </div>
+                  </div>
+            </div>
+           
+        </div>
+    </div>
+
+    <!------projects end------->
+
+    <!--------------newsletter starts----------->
+
+    <section class="sec1 container-fluid mt-2 mb-5">
+            <h2 class="mt-3">NewsLetter</h2>
+            <p>Subscribe to our newsletter to receive our latest news.</p>
+        <form class="row row-cols-lg-auto g-3 align-items-center" action="/action_page.php">
+            
+              <input type="email" class="form-control" placeholder="Enter E-mail" id="email">
+            
+            <button id="bn" type="submit" class="btn btn-dark mb-3">Subscribe</button>
+        </form>
+    </section>
+
+    <!--------------newsletter end----------->
+    
+    <!------work experience start------->
+    <div id="workexperience" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="probiz.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>PROBIZ OFFICE-HUB</h5>
+            <p>I worked in Probiz Office Hub as a Delivery personnel and collector from 2014-2018.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="nsjbi.jpeg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>New San Jose Builders Inc</h5>
+            <p>I worked in New San Jose Builders Inc as a Property Specialist from 2018 up until today.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="freelancer.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>FreeLance Auto Agent</h5>
+            <p>This is my sideline until now, whenever there is an oppotunity for me to sell someone's car.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!------contact start------->
+        <!-- Footer -->
+<footer class="page-footer font-small blue-grey lighten-5 mt-5">
+
+    <div style="background-color: #c2c2c2;">
+      <div class="container">
+  
+        <!-- Grid row-->
+        <div class="row py-4 d-flex align-items-center">
+  
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+            <h6 class="mb-0">Get connected with us on social networks!</h6>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-6 col-lg-7 text-center text-md-right">
+  
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <i class="fab fa-facebook-f white-text mr-4"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic">
+              <i class="fab fa-twitter white-text mr-4"> </i>
+            </a>
+            <!-- Google +-->
+            <a class="gplus-ic">
+              <i class="fab fa-google-plus-g white-text mr-4"> </i>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic">
+              <i class="fab fa-linkedin-in white-text mr-4"> </i>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fab fa-instagram white-text"> </i>
+            </a>
+  
+          </div>
+          <!-- Grid column -->
+  
+        </div>
+        <!-- Grid row-->
+  
+      </div>
+    </div>
+  
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5">
+  
+      <!-- Grid row -->
+      <div class="row mt-3 dark-grey-text">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+  
+          <!-- Content -->
+          <h6 class="text-uppercase font-weight-bold">thompielumerio</h6>
+          <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>If you are interested to be my client, just dm me here and i will reply right away
+            after i get read you message. I will do my best just for you to be satisfied with my work.</p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+  
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Knowledgeable in:</h6>
+          <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a class="dark-grey-text" href="#!">HTML</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#!">CSS</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="#!">BOOTSTRAP</a>
+          </p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+  
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+          <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a class="dark-grey-text" href="https://web.facebook.com/thom.lumerio">My facebook account</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="https://www.instagram.com/">My instagram account</a>
+          </p>
+          <p>
+            <a class="dark-grey-text" href="https://www.youtube.com/channel/UCuSg80TjMwLr1AxGyjWr48Q">My youtube channel</a>
+          </p>
+         
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+  
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <i class="fas fa-home mr-3"></i> #5 Alley 2 Philvira Homes, T.sora Quezon City Ph. </p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> thompielumerio@gmail.com</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> 09313220070</p>
+          
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center text-black-50 py-3">© 2021 Copyright:
+      <a class="dark-grey-text" href="file:///C:/Users/Thompie/Desktop/my%20portfolio/index.html">TBL ENGINEERING</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+    <!------contact end------->
+
+
+
+        <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
